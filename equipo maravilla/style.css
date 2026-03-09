@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    color: #333;
+    transition: background 0.5s, color 0.5;
+}
+
+.dark-mode{
+    background: #222;
+    color: #eee;
+}
+
+.hidden{
+    display: none;
+}
+
+#app{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background: #4facfe;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover{
+    background: 00c6ff;
+    transform: scale(1.05);
+}
+
+#optios button{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+@keyframes fadeIn{
+    from { opacity: 0;}
+    to { opacity: 1;}
+}

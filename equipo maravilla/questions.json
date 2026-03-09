@@ -1,0 +1,30 @@
+{
+    "general":[
+        {
+            "pregunta": "¿cual es el planeta mas cercano al sol?",
+            "opciones":["venus","mercurio","marte","jupiter"],
+            "respuesta":"mercurio"
+        }
+    ],
+    "ciencia":[
+        {
+            "pregunta": "¿cual es la formula quimica del agua?",
+            "opciones":["H2O","CO2","O2","NaCL"],
+            "respuesta":"H2O"
+        }
+    ],
+    "historia":[
+        {
+            "pregunta": "¿quien fue el primer presidente de mexico?",
+            "opciones":["benito juarez","guadalupe victoria","porfirio diaz"],
+            "respuesta":"guadalupe victoria"
+        }
+    ],
+    "tecnologia":[
+        {
+            "pregunta": "¿que significa html?",
+            "opciones":["HyperText Markup Language","High Tech Modern Language"],
+            "respuesta":"HyperText Markup Language"
+        }
+    ]
+}
